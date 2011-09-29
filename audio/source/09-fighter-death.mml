@@ -1,0 +1,16 @@
+#TITLE Fighter Death
+#COMPOSER Ruins Everything
+#MAKER 2011 Steve Cochrane
+
+; Volume envelopes
+; Set to @v9 to not conflict with other envelopes when compiling as a group.
+@v9 = { 15 14 13 12 11 10 9 8 7 6 5 4 | 0 1 2 3 4 5 }
+
+; Set tempo for all channels to 120bpm
+D t120
+
+; Set up channel D (noise): length = 8th notes, octave = 1, noise mode = 0 (normal), volume envelope = 0
+; The multi-song NSF compiler throws a warning with the following line, so I just set 
+; the note type and volume envelope along with each note instead.
+;D l2 o1 @0 @v9
+D @v9 b2

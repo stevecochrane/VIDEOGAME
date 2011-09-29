@@ -1,0 +1,10 @@
+#TITLE In Game
+#COMPOSER Ruins Everything
+#MAKER 2011 Steve Cochrane
+
+; Set tempo for all channels to 120bpm
+C t120
+
+; Set up channel C (triangle): length = 16th notes, octave = 4, quantize = 6/8
+C l8 o4 q6
+C [c r <b >c r e r f r g r f e r c r]4

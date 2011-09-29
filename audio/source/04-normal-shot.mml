@@ -1,0 +1,13 @@
+#TITLE Normal Shot
+#COMPOSER Ruins Everything
+#MAKER 2011 Steve Cochrane
+
+; Pitch macro: slide the pitch down by 8
+@EP0 = { -8 }
+
+; Set tempo for all channels to 140bpm
+A t140
+
+; Set up channel A (pulse): length = 8th notes, octave = 7, duty cycle = 1, volume = 15
+A l8 o7 @01 v15
+A EP0 f+
