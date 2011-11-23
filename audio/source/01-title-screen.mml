@@ -17,6 +17,9 @@
 ; Set tempo for all channels to 100bpm
 AD t100
 
+; Set all channels to loop indefinitely
+AD L
+
 ; Set up channel A (pulse): length = 16th notes, octave = 6, duty cycle = 0
 A l16 o6 @00
 A [@v8 b g e c @v8 b g e c @v7 b g e c @v1 b g e c @v0 b g e c @v1 b g e c @v7 b g e c @v8 b g e c]4
